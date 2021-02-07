@@ -8,7 +8,7 @@ namespace ProgrammeerOefeningen.Test
     public class Test
     {
         [Fact]
-        public void Oefening1()
+        public void Oefening1_IsGeslaagd()
         {
             var kat = Program.Oefening1();
             kat.Naam.Should().Be("Josefien");
